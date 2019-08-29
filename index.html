@@ -9,8 +9,13 @@
 </head>
 <body>
     <label>gross Salary</label>
-    <input id ="grossSalary"  type = "number">
-    <button onclick="calculateTax()">Calculate Tax</button>
+    <input id ="grossSalary"  type = "number" oninput="calculateTax(document.getElementById('grossSalary').value,document.getElementById('totalYear').value)">
+    <label>Total Year</label>
+    <input id ="totalYear"  type = "number" oninput="calculateTax(document.getElementById('grossSalary').value,document.getElementById('totalYear').value)">
+    <button onclick="calculateTax(document.getElementById('grossSalary').value,document.getElementById('totalYear').value)">Calculate Tax</button>
+</br>
+    <label id = "tax"> </label>
 </body>
+
 <script src='taxCalculator.js'></script>
 </html>
