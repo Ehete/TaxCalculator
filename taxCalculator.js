@@ -1,3 +1,6 @@
+exports.printMsg = function() {
+    console.log("This is a message from the Tax Calculator package");
+  }
 let grossSalary = document.getElementById('grossSalary');  
 
 function calculateTax(salary,totalYear) {
