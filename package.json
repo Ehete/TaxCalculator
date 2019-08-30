@@ -1,0 +1,19 @@
+{
+  "name": "@ehete/taxcalculator",
+  "version": "1.1.0",
+  "description": "An income Tax Calculator",
+  "main": "taxCalculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehete/TaxCalculator.git"
+  },
+  "author": "NPM TaxCalculator User <npm.TaxCalculator.ehetemm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehete/TaxCalculator/issues"
+  },
+  "homepage": "https://github.com/Ehete/TaxCalculator#readme"
+}
